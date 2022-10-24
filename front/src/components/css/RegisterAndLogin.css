@@ -1,0 +1,59 @@
+.main {
+    background-color: yellowgreen;
+    width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px;
+    height: 400px;
+}
+
+.main h2 {
+    text-align: center;
+}
+
+.form-below {
+    text-align: center;
+}
+
+form {
+    width: 200px;
+    margin: 0 auto;
+}
+
+form input {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.reg-log-button {
+    border: 2px solid blue;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.reg-log-button:hover {
+    border: 2px solid blue;
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h3 {
+    text-align: center;
+    color: blue;
+}

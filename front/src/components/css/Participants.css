@@ -1,0 +1,61 @@
+
+
+h2 {
+    text-align: center;
+}
+
+table {
+    border: 2px solid;
+    width: 800px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr, td, th {
+    border: 2px solid;
+    text-align: center;
+}
+
+.add-participant, .Add button {
+    border: 3px solid white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    background-color: blue;
+}
+
+.add-participant:hover, .Add button:hover {
+    border: 3px solid blue;
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+}
+
+.addPatricipant-button-wrap {
+    display: flex;
+    justify-content: end;
+    padding-right: 100px;
+    margin-bottom: 50px;
+}
+
+.Add {
+    margin-top: 30px;
+}
+
+.Delete, .Edit {
+    font-weight: 700;
+    margin: 5px;
+    color: blue;
+}
+
+.Delete:hover, .Edit:hover {
+   color: red;
+   cursor: pointer;
+}
+
+.no-p {
+    color: brown;
+}

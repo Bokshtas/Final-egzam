@@ -1,0 +1,46 @@
+.header {
+    background-color: rgb(169, 169, 194);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 80px;
+    padding-left: 100px;
+    padding-right: 50px;
+    border-bottom: 2px solid black;
+}
+
+
+footer {
+    text-align: center;
+    width: 100%;
+    border-top: 2px solid black;
+    bottom: 0;
+    font-size: 12px;
+    background-color: rgb(169, 169, 194);
+    padding: 10px;
+    position: fixed;
+    font-weight: bold;
+}
+
+.addres {
+    padding: 15px;
+}
+
+.addres a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.addres a:hover {
+    color: green;
+}
+
+
+.page-name {
+    font-weight: 700;
+    color: rgb(71, 58, 97);
+    font-size: 40px;
+    text-decoration: none;
+}
